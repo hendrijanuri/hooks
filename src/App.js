@@ -21,7 +21,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    document.title = `Search result for "${searchQuery}"`
+    document.title = `Search result for "${searchQuery}"`;
     fetchNews();
   }, [url]);
 
